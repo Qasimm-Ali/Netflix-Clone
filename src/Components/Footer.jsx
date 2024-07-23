@@ -1,8 +1,8 @@
 export default function Footer(){
     return(
         <>
-        <div className="h-[60vh] bg-black w-screen mt-3 text-white flex justify-evenly items-center flex-wrap max-lg:flex max-lg:flex-col max-lg:justify-center  " >
-                    <ul >
+        <div className=" h-[60vh] bg-black w-screen mt-3 text-white flex justify-evenly items-center flex-wrap max-lg:flex max-lg:flex-col max-lg:justify-center  " >
+                    <ul className="max-sm:hidden" >
                         <a className="block underline  text-zinc-400 " href="#">Questions ? Contact us</a>
                         <a className="block underline  text-zinc-400 " href="#">FAQ</a>
                         <a className="block underline  text-zinc-400 " href="#">Account</a>
@@ -13,6 +13,7 @@ export default function Footer(){
                             </select> </p>
                         <a className="block underline text-zinc-400 " href="#">Provacy</a>
                     </ul>
+                    <div className="max-sm:flex gap-3 max-sm:text-[14px]">
                     <ul >
                         <a className="block underline text-zinc-400 " href="#">Help Center</a>
                         <a className="block underline text-zinc-400 " href="#">Cookies</a>
@@ -29,6 +30,7 @@ export default function Footer(){
                         <a className="block underline text-zinc-400 " href="#">Terms of Use</a>
                         <a className="block underline text-zinc-400 " href="#">Contact Us</a>
                     </ul>
+                    </div>
                 </div>
         </>
     )

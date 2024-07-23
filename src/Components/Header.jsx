@@ -6,8 +6,8 @@ export default function Header(){
         <div className="bg-image bg-center bg-no-repeat bg-auto relative  h-[100vh] w-[100%]   ">
         <div className="Container w-screen h-[100vh] absolute  ">
             <div className="Navbar m-auto mt-5 flex w-[80%] justify-between items-center ">
-                <div><img className="z-[10px]" src={logo} alt="avc" /></div>
-                <div><button className="h-8 w-20 text-white bg-red-600 hover:bg-red-700 font-medium text-[16px] rounded-md"> <Link className="" to="/login"> Sign In </Link> </button> </div>
+                <div><img className="max-sm:w-[90px]" src={logo} alt="avc" /></div>
+                <div><button className="max-sm:h-7 max-sm:w-16 max-sm:text-[14px]  h-8 w-20 text-white bg-red-600 hover:bg-red-700 font-medium text-[16px] rounded-md"> <Link className="" to="/login"> Sign In </Link> </button> </div>
             </div>
             <div className="text-white w-screen h-[80vh]  flex flex-col justify-center items-center gap-6  max-lg:gap-4 max-sm:gap-1 " >
                 <p className="font-extrabold text-5xl max-lg:text-3xl flex flex-wrap text-center max-lg:font-semibold px-12 max-sm:font-medium max-sm:text-2xl max-sm:px-12 ">Unlimited movies, TV shows, and more</p>
